@@ -1,30 +1,18 @@
 import "./App.css";
-import Header from "./components/Header";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+
+const router = createBrowserRouter([
+  {path: "/", element: <HomePage />}
+]);
 
 function App() {
-  return(<div className="App">
-        <Header />
-        {/* <footer>
-        <ul>
-            <li>Whatsapp</li>
-            <li>Instagram</li>
-            <li>Linkdin</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-          </ul>
+  return (
+    <div className="App">
+      <RouterProvider router={router}/>
+    </div>
     
-</footer> */}
-        <h1>this  is for tesstind</h1>
-        <ul>
-        <li>Whatsapp</li>
-            <li>Instagram</li>
-            <li>Linkdin</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-        </ul>
-          
-      </div>);
-      
+  );
 }
 
 export default App;
