@@ -1,0 +1,21 @@
+/* .card{
+    border: 2px solid black;
+} */
+
+figcaption{
+    color: black;
+    font-size: 2rem;
+}
+
+figure img{
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+figure{
+    /* border: 2px solid black; */
+    width: 30vw;
+    cursor: pointer;
+}
+
