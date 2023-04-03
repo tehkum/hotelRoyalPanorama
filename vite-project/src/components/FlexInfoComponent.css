@@ -1,0 +1,19 @@
+.flex-info-container{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    width:80%;
+    margin: auto;
+}
+
+.flex-info-container img{
+    width: 25vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.flex-info-container p{
+    width:60%;
+    margin: auto;
+    font-size: large;
+}

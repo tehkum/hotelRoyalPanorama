@@ -1,6 +1,4 @@
-/* .card{
-    border: 2px solid black;
-} */
+
 
 figcaption{
     color: black;
@@ -8,7 +6,7 @@ figcaption{
 }
 
 figure img{
-    width: 30vw;
+    width: 25vw;
     height: auto;
     border-radius: 10px;
 }
@@ -18,4 +16,5 @@ figure{
     width: 30vw;
     cursor: pointer;
 }
+
 

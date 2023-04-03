@@ -1,0 +1,16 @@
+footer li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: .8vw;
+  
+  }
+  footer ul{
+    padding-left: 0;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: #808080;
+    border-bottom: solid 5vh rgb(101, 101, 101);
+  }
