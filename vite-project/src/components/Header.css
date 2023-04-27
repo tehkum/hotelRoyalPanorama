@@ -19,7 +19,7 @@
     }
   }
 
-  .hamburgerClips{
+  /* .hamburgerClips{
     border: 1px solid white;
     background-color: #4F0341;
     position: sticky;
@@ -33,7 +33,7 @@
 
   .hamburgerClips ul{
     padding:0 2px;
-  }
+  } */
 
   @media screen and (min-width: 1080px){
     .Header-bullets li{
@@ -49,5 +49,9 @@
         right: 1vw;
         /* top: 1vw; */
       }
+      .hamburger-button{
+        display: none;
+      }
   }
+  
 

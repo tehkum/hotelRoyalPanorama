@@ -2,7 +2,7 @@ import RoomCard from "./Card";
 import "./FlexCard.css";
 
 export default function FlexCards() {
-  return (<>
+  return (<div className="cardManager">
   <h1 className="flex-header">Our Rooms</h1>
     <div className="card-container">
       <RoomCard
@@ -24,5 +24,5 @@ export default function FlexCards() {
       />
 
     </div>
-  </>);
+  </div>);
 }

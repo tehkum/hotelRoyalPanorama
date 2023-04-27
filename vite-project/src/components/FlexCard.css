@@ -2,14 +2,14 @@
     .card-container{
     display: flex;
     flex-direction: row;
-    width: 80%;
-    overflow: auto;
-    margin: auto;
+    /* width: 80%; */
+    /* overflow: auto; */
+    /* margin: auto; */
 }
 
 .card-container::-webkit-scrollbar {
   display: none;
-  /* width: 5px; */
+  
 }
 }
 
@@ -23,16 +23,37 @@
     
     .card-container::-webkit-scrollbar {
       display: none;
-      /* width: 5px; */
     }
 }
 
 .flex-header{
     color: black;
     text-align: center;
-    /* background-color: grey; */
     padding: 0.5rem; 
 }
+
+/* @media screen and (min-width: 1200px){
+.card-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}}
+@media screen and (max-width: 1200px){
+  .card-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+  }
+  
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+} */
+
+
+
+
 
 /* .card-container::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
@@ -49,3 +70,10 @@
 .card-container::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 } */
+
+
+.cardManager{
+  background-color: #ffffd7;
+  padding: 20px;
+  margin: 20px 0;
+}

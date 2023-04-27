@@ -17,3 +17,7 @@
     margin: auto;
     font-size: large;
 }
+
+.content-wrapper{
+    padding: 20px;
+}
